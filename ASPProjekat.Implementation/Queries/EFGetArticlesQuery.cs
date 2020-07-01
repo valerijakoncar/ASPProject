@@ -26,7 +26,7 @@ namespace ASPProjekat.Implementation.Queries
 
         public PagedResponse<ArticleDto> Execute(ArticleSearch search)
         {
-            var query = context.Articles..Include(x => x.Price).AsQueryable();
+            var query = context.Articles.Include(x => x.Price).AsQueryable();
 
             if (!string.IsNullOrEmpty(search.Name) || !string.IsNullOrWhiteSpace(search.Name))
             {

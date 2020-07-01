@@ -3,6 +3,7 @@ using ASPProjekat.Application.Queries;
 using ASPProjekat.Application.Searches;
 using ASPProjekat.EFDataAccess;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,7 +27,7 @@ namespace ASPProjekat.Implementation.Queries
 
         public PagedResponse<ArticleDto> Execute(ArticleSearch search)
         {
-            var query = context.Articles.AsQueryable();
+            var query = context.Articles.Include(x => x.Price).AsQueryable();
 
             if (!string.IsNullOrEmpty(search.Name) || !string.IsNullOrWhiteSpace(search.Name))
             {

@@ -1,0 +1,382 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.ApiApp\\ASPProjekat.ApiApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.ApiApp\\ASPProjekat.ApiApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.ApiApp\\ASPProjekat.ApiApp.csproj",
+        "projectName": "ASPProjekat.ApiApp",
+        "projectPath": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.ApiApp\\ASPProjekat.ApiApp.csproj",
+        "packagesPath": "C:\\Users\\Softkick\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.ApiApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Softkick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Application\\ASPProjekat.Application.csproj": {
+                "projectPath": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Application\\ASPProjekat.Application.csproj"
+              },
+              "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Domain\\ASPProjekat.Domain.csproj": {
+                "projectPath": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Domain\\ASPProjekat.Domain.csproj"
+              },
+              "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.EFDataAccess\\ASPProjekat.EFDataAccess.csproj": {
+                "projectPath": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.EFDataAccess\\ASPProjekat.EFDataAccess.csproj"
+              },
+              "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Implementation\\ASPProjekat.Implementation.csproj": {
+                "projectPath": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Implementation\\ASPProjekat.Implementation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Application\\ASPProjekat.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Application\\ASPProjekat.Application.csproj",
+        "projectName": "ASPProjekat.Application",
+        "projectPath": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Application\\ASPProjekat.Application.csproj",
+        "packagesPath": "C:\\Users\\Softkick\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Softkick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Domain\\ASPProjekat.Domain.csproj": {
+                "projectPath": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Domain\\ASPProjekat.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Domain\\ASPProjekat.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Domain\\ASPProjekat.Domain.csproj",
+        "projectName": "ASPProjekat.Domain",
+        "projectPath": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Domain\\ASPProjekat.Domain.csproj",
+        "packagesPath": "C:\\Users\\Softkick\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Softkick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.EFDataAccess\\ASPProjekat.EFDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.EFDataAccess\\ASPProjekat.EFDataAccess.csproj",
+        "projectName": "ASPProjekat.EFDataAccess",
+        "projectPath": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.EFDataAccess\\ASPProjekat.EFDataAccess.csproj",
+        "packagesPath": "C:\\Users\\Softkick\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.EFDataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Softkick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Domain\\ASPProjekat.Domain.csproj": {
+                "projectPath": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Domain\\ASPProjekat.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Implementation\\ASPProjekat.Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Implementation\\ASPProjekat.Implementation.csproj",
+        "projectName": "ASPProjekat.Implementation",
+        "projectPath": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Implementation\\ASPProjekat.Implementation.csproj",
+        "packagesPath": "C:\\Users\\Softkick\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Softkick\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Application\\ASPProjekat.Application.csproj": {
+                "projectPath": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.Application\\ASPProjekat.Application.csproj"
+              },
+              "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.EFDataAccess\\ASPProjekat.EFDataAccess.csproj": {
+                "projectPath": "C:\\Users\\Softkick\\Desktop\\ASPProjekat\\ASPProjekat.EFDataAccess\\ASPProjekat.EFDataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

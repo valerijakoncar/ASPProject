@@ -1,0 +1,16 @@
+C:\Users\Softkick\Desktop\ASPIspit\ASPProjekat.Application\bin\Debug\netcoreapp3.1\ASPProjekat.Domain.dll
+C:\Users\Softkick\Desktop\ASPIspit\ASPProjekat.Application\obj\Debug\netcoreapp3.1\ASPProjekat.Application.csprojAssemblyReference.cache
+C:\Users\Softkick\Desktop\ASPIspit\ASPProjekat.Application\obj\Debug\netcoreapp3.1\ASPProjekat.Application.AssemblyInfoInputs.cache
+C:\Users\Softkick\Desktop\ASPIspit\ASPProjekat.Application\obj\Debug\netcoreapp3.1\ASPProjekat.Application.AssemblyInfo.cs
+C:\Users\Softkick\Desktop\ASPProjekat\ASPProjekat.Application\bin\Debug\netcoreapp3.1\ASPProjekat.Application.deps.json
+C:\Users\Softkick\Desktop\ASPProjekat\ASPProjekat.Application\bin\Debug\netcoreapp3.1\ASPProjekat.Application.dll
+C:\Users\Softkick\Desktop\ASPProjekat\ASPProjekat.Application\bin\Debug\netcoreapp3.1\ASPProjekat.Application.pdb
+C:\Users\Softkick\Desktop\ASPProjekat\ASPProjekat.Application\bin\Debug\netcoreapp3.1\ASPProjekat.Domain.dll
+C:\Users\Softkick\Desktop\ASPProjekat\ASPProjekat.Application\bin\Debug\netcoreapp3.1\ASPProjekat.Domain.pdb
+C:\Users\Softkick\Desktop\ASPProjekat\ASPProjekat.Application\obj\Debug\netcoreapp3.1\ASPProjekat.Application.csprojAssemblyReference.cache
+C:\Users\Softkick\Desktop\ASPProjekat\ASPProjekat.Application\obj\Debug\netcoreapp3.1\ASPProjekat.Application.AssemblyInfoInputs.cache
+C:\Users\Softkick\Desktop\ASPProjekat\ASPProjekat.Application\obj\Debug\netcoreapp3.1\ASPProjekat.Application.AssemblyInfo.cs
+C:\Users\Softkick\Desktop\ASPProjekat\ASPProjekat.Application\obj\Debug\netcoreapp3.1\ASPProjekat.Application.csproj.CopyComplete
+C:\Users\Softkick\Desktop\ASPProjekat\ASPProjekat.Application\obj\Debug\netcoreapp3.1\ASPProjekat.Application.dll
+C:\Users\Softkick\Desktop\ASPProjekat\ASPProjekat.Application\obj\Debug\netcoreapp3.1\ASPProjekat.Application.pdb
+C:\Users\Softkick\Desktop\ASPProjekat\ASPProjekat.Application\obj\Debug\netcoreapp3.1\ASPProjekat.Application.csproj.CoreCompileInputs.cache

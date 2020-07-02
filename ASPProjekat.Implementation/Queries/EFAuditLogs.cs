@@ -38,7 +38,7 @@ namespace ASPProjekat.Implementation.Queries
             }
             else if (search.LogToDate != null)
             {
-                query = query.Where(x => x.Date <= search.LogFromDate);
+                query = query.Where(x => x.Date <= search.LogToDate);
             }
 
             if (!string.IsNullOrEmpty(search.UseCaseName) || !string.IsNullOrWhiteSpace(search.UseCaseName))
